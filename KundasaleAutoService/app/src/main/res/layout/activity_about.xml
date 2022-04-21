@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".About"
+    android:fitsSystemWindows="true">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_our_managing_director"
+        android:textSize="25sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/the_managing_director_of_the_company_is_an_automobile_electronics_engineer_with_more_than_thirty_years_experience_working_in_many_areas_of_the_automobile_industry_in_the_united_kingdom_as_well_as_sri_lanka"
+        android:textSize="11sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_our_company"
+        android:textSize="25sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/kundasale_auto_service_pvt_ltd_is_the_largest_independent_network_of_garages_in_sri_lanka_consisting_of_three_large_state_of_the_art_vehicle_repair_workshops_situated_in_kundasale_pallekelle_boi_estate_and_mihintale_the_head_office_in_kundasale_was_opened_in_1994_today_kas_is_a_well_established_company_operating_as_an_authorised_dealer_for_toyota_nissan_suzuki_maruti_kia_micro_chery_mahindra_and_isuzu_mechanical_and_electrical_repairs_are_carried_out_using_the_latest_computerised_diagnostic_scanners_and_software"
+        android:textSize="11sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/services_provided_include_lubricant_service_mechanical_electrical_accident_repairs_chassis_body_aligning_using_body_jigs_with_computerised_systems_wheel_alignment_and_air_conditioning_repairs_we_carry_out_all_specialized_repairs_on_hybrid_vehicles_kas_specialises_in_booth_painting_using_sikkens_2k_paint_with_up_to_90_000_colours_which_can_be_mixed_for_perfect_colour_matching"
+        android:textSize="11sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/a_highly_efficient_twenty_four_hour_recovery_service_is_available_for_accidents_and_breakdowns_which_operates_island_wide_365_days_a_year_we_have_a_staff_strength_of_approximately_250_people_working_for_our_company_the_specialized_knowledge_and_practical_skills_of_our_staff_are_continuously_being_up_graded_to_enable_us_to_provide_the_highest_standard_of_service_to_our_much_valued_customers_training_programmes_are_also_provided_by_other_major_automobile_companies_keeping_our_staff_thoroughly_up_dated_in_the_field_of_advanced_automobile_technology_all_genuine_spare_parts_are_supplied_to_our_company_by_the_agents_and_we_sell_them_at_the_agents_controlled_prices"
+        android:textColor="@android:color/background_light"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="@string/back"
+        android:textSize="25sp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

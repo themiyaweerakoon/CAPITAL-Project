@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254909936089",
+    "firebase_url": "https://kundasale-auto-service.firebaseio.com",
+    "project_id": "kundasale-auto-service",
+    "storage_bucket": "kundasale-auto-service.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254909936089:android:eaa68e99f1b72379ed69c8",
+        "android_client_info": {
+          "package_name": "com.example.kundasaleautoservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254909936089-g2ake84174raupvfmli3coqj9lfcr1g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kundasaleautoservice",
+            "certificate_hash": "488589488cc1bdc60456892dd07f38c23999dd69"
+          }
+        },
+        {
+          "client_id": "254909936089-tcue1gscngiuss9c3kgnbvrdg67l5hvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR-l_f_nH1fap_tWR3QxmFdfrq7BkU9bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254909936089-tcue1gscngiuss9c3kgnbvrdg67l5hvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
